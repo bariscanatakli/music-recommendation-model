@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+
+# Model checkpoints & saved models
+*.h5
+*.keras
+model_checkpoints/
+
+# Data
+Train_Spectogram_Images/
+Train_Sliced_Images/
+Test_Spectogram_Images/
+Test_Sliced_Images/
+*.wav
+*.mp3
+
+# Generated images
+*.png
+*.jpg
+*.jpeg
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
