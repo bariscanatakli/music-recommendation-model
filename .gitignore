@@ -48,3 +48,6 @@ Test_Sliced_Images/
 # Logs
 logs/
 *.log
+
+#Dataset
+Dataset/

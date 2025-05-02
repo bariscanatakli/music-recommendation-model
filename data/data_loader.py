@@ -3,7 +3,7 @@ import re
 import numpy as np
 import cv2
 from import_data import create_spectrogram
-from slice_spectrogram import slice_spect
+from slice_spectrogram import wslice_spect
 from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 
