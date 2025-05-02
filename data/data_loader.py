@@ -12,7 +12,7 @@ Converts images and labels into training and testing matrices.
 """
 def load_dataset(verbose=0, mode=None, datasetSize=1.0):
     create_spectrogram(verbose, mode)
-    slice_spect(verbose, mode)
+    wslice_spect(verbose, mode)
 
     # datasetSize is a float value which returns a fraction of the dataset.
     # If set as 1.0 it returns the entire dataset.
